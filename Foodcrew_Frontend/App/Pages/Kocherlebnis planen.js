@@ -128,7 +128,7 @@ class Kocherlebnisplanen extends Component{
                                 }}>
 
                                     <TouchableOpacity 
-                                    onPress={() => this.props.navigation.navigate('Kocherlebnisstarten')} 
+                                    onPress={() => this.props.navigation.navigate('keinRezept')} 
                                     style={{
                                     height: 80,
                                     width: 80,
@@ -887,7 +887,7 @@ class Kocherlebnisplanen extends Component{
                     }}>
                         
                         
-                        <TouchableOpacity onPress={() => this.props.navigation.navigate('Kocherlebnisplanen')} 
+                        <TouchableOpacity onPress={() => this.props.navigation.navigate('KocherlebnisplanenTitel')} 
                         style={{
                             width: '80%',
                             height: '50%',
@@ -917,7 +917,7 @@ class Kocherlebnisplanen extends Component{
                         justifyContent: 'center'
                     }}>
 
-                        <TouchableOpacity onPress={() => this.props.navigation.navigate('Login')} 
+                        <TouchableOpacity onPress={() => this.props.navigation.navigate('Einkaufsliste')} 
                         style={{
                             width: '80%',
                             height: '50%',

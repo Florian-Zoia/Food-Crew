@@ -118,7 +118,7 @@ class Freundeeinladen extends Component{
                     }}>
                         
                         
-                        <TouchableOpacity onPress={() => this.props.navigation.navigate('Login')} 
+                        <TouchableOpacity onPress={() => this.props.navigation.navigate('ToDo')} 
                         style={{
                             width: '80%',
                             height: '50%',
