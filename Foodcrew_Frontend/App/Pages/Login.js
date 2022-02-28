@@ -29,7 +29,7 @@ class Login extends Component {
                 >FOODCREW</Text>
                 <TouchableOpacity
                     onPress={() =>
-                        this.props.navigation.navigate('Login2',
+                        this.props.navigation.navigate('Kocherlebnisstarten',
                         )
                     }
                     style={{
