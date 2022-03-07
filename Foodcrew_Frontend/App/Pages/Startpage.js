@@ -4,7 +4,7 @@ import {Image, TouchableOpacity, View, Text} from 'react-native';
 //import {} from "@expo-google-fonts/amatic-sc";
 
 
-class Login extends Component {
+class Startpage extends Component {
     static navigationOptions = {
     };
 
@@ -54,4 +54,4 @@ class Login extends Component {
         );
     }
 }
-export default Login;
+export default Startpage;

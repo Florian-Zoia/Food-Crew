@@ -12,6 +12,13 @@
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		7FC083401DE647EFBD41F60B /* AmaticSC-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC81C09C05A544278CD1D148 /* AmaticSC-Bold.ttf */; };
+		A4E38C81CA0A4CCC87B1744A /* AmaticSC-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E20E7C7BD454AFD96BCAECD /* AmaticSC-Regular.ttf */; };
+		41CDD00F44C44C3A8067F784 /* Baloo2-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB002BD5A3214FA3A3F02C4A /* Baloo2-Bold.ttf */; };
+		C6F2CBD2C7644B7AA0C345E2 /* Baloo2-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 752ECB22A1CF4788B87639B3 /* Baloo2-ExtraBold.ttf */; };
+		B760F0EF0D594CFBB2BABFF5 /* Baloo2-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB8B4534A2FE4AA2B1CCEAD4 /* Baloo2-Medium.ttf */; };
+		E2B5A65F143A40F5A6909098 /* Baloo2-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3F65AA1D30DD42FBA60E6D24 /* Baloo2-Regular.ttf */; };
+		DF5964EF22D34C8E8D9C3360 /* Baloo2-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 81602C4451544673A5FB4D8C /* Baloo2-SemiBold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +43,13 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Foodcrew_Frontend/main.m; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Foodcrew_Frontend/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		EC81C09C05A544278CD1D148 /* AmaticSC-Bold.ttf */ = {isa = PBXFileReference; name = "AmaticSC-Bold.ttf"; path = "../App/Assets/fonts/AmaticSC-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8E20E7C7BD454AFD96BCAECD /* AmaticSC-Regular.ttf */ = {isa = PBXFileReference; name = "AmaticSC-Regular.ttf"; path = "../App/Assets/fonts/AmaticSC-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FB002BD5A3214FA3A3F02C4A /* Baloo2-Bold.ttf */ = {isa = PBXFileReference; name = "Baloo2-Bold.ttf"; path = "../App/Assets/fonts/Baloo2-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		752ECB22A1CF4788B87639B3 /* Baloo2-ExtraBold.ttf */ = {isa = PBXFileReference; name = "Baloo2-ExtraBold.ttf"; path = "../App/Assets/fonts/Baloo2-ExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FB8B4534A2FE4AA2B1CCEAD4 /* Baloo2-Medium.ttf */ = {isa = PBXFileReference; name = "Baloo2-Medium.ttf"; path = "../App/Assets/fonts/Baloo2-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3F65AA1D30DD42FBA60E6D24 /* Baloo2-Regular.ttf */ = {isa = PBXFileReference; name = "Baloo2-Regular.ttf"; path = "../App/Assets/fonts/Baloo2-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		81602C4451544673A5FB4D8C /* Baloo2-SemiBold.ttf */ = {isa = PBXFileReference; name = "Baloo2-SemiBold.ttf"; path = "../App/Assets/fonts/Baloo2-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +123,7 @@
 				00E356EF1AD99517003FC87E /* Foodcrew_FrontendTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				57AEC705DDB647FCB06E7EEF /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -123,6 +138,21 @@
 			);
 			name = Products;
 			sourceTree = "<group>";
+		};
+		57AEC705DDB647FCB06E7EEF /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				EC81C09C05A544278CD1D148 /* AmaticSC-Bold.ttf */,
+				8E20E7C7BD454AFD96BCAECD /* AmaticSC-Regular.ttf */,
+				FB002BD5A3214FA3A3F02C4A /* Baloo2-Bold.ttf */,
+				752ECB22A1CF4788B87639B3 /* Baloo2-ExtraBold.ttf */,
+				FB8B4534A2FE4AA2B1CCEAD4 /* Baloo2-Medium.ttf */,
+				3F65AA1D30DD42FBA60E6D24 /* Baloo2-Regular.ttf */,
+				81602C4451544673A5FB4D8C /* Baloo2-SemiBold.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -214,6 +244,13 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				7FC083401DE647EFBD41F60B /* AmaticSC-Bold.ttf in Resources */,
+				A4E38C81CA0A4CCC87B1744A /* AmaticSC-Regular.ttf in Resources */,
+				41CDD00F44C44C3A8067F784 /* Baloo2-Bold.ttf in Resources */,
+				C6F2CBD2C7644B7AA0C345E2 /* Baloo2-ExtraBold.ttf in Resources */,
+				B760F0EF0D594CFBB2BABFF5 /* Baloo2-Medium.ttf in Resources */,
+				E2B5A65F143A40F5A6909098 /* Baloo2-Regular.ttf in Resources */,
+				DF5964EF22D34C8E8D9C3360 /* Baloo2-SemiBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
