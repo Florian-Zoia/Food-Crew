@@ -1,8 +1,5 @@
 import React, { Component } from 'react';
 import {Image, TouchableOpacity, View, Text, ActivityIndicator, FlatList} from 'react-native';
-//import { amatic-sc-700normal } from 'typeface-amatic-sc';
-//import {} from "@expo-google-fonts/amatic-sc";
-
 
 
 class Startpage extends Component {
@@ -61,9 +58,7 @@ componentDidMount() {
                         alignItems:'center',
                     }}
                 >
-                    <Image
-                        source={require('../Resources/Images/StartEmoji.png')}
-                    />
+
                 </TouchableOpacity
                 >
                 <Text style={{

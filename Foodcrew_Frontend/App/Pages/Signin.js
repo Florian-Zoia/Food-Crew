@@ -1,6 +1,5 @@
 import React, {Component, useState,} from 'react';
 import {Image, TouchableOpacity, View, Text, TextInput,} from 'react-native';
-import {} from "native-base";
 
 
 class Signin extends Component {

@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import {Image, TouchableOpacity, View, Text, TextInput, StyleSheet, ScrollView} from 'react-native';
-import {} from "native-base";
 
 class Kocherlebnisse extends Component{
     static navigationOptions = {

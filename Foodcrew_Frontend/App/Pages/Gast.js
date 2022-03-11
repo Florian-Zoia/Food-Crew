@@ -1,8 +1,5 @@
 import React, { Component } from 'react';
 import {Image, TouchableOpacity, View, Text, TextInput, Button} from 'react-native';
-import {} from "native-base";
-//import { amatic-sc-700normal } from 'typeface-amatic-sc';
-//import {} from "@expo-google-fonts/amatic-sc";
 
 
 class Gast extends Component {
