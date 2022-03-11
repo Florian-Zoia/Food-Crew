@@ -39,7 +39,6 @@ class KocherlebnisplanenTitel extends Component{
                         textAlign:'center',
                         marginTop: '10%',
                         color:'#B5915F',
-                        fontFamily: 'sans-serif-condensed'
                         }}>
                         NEUES KOCHERLEBNIS
                         </Text>
@@ -73,7 +72,6 @@ class KocherlebnisplanenTitel extends Component{
                                 textAlign:'left',
                                 marginLeft: 10,
                                 color:'black',
-                                fontFamily: ''
                                 }}>
                                 Titel:
                             </Text>
@@ -117,7 +115,6 @@ class KocherlebnisplanenTitel extends Component{
                                 textAlign:'left',
                                 marginLeft: 40,
                                 color:'black',
-                                fontFamily: ''
                                 }}>
                                 Personenanzahl: 3
                             </Text>
@@ -138,7 +135,6 @@ class KocherlebnisplanenTitel extends Component{
                                 textAlign:'left',
                                 marginLeft: 40,
                                 color:'black',
-                                fontFamily: 'sans-serif-light'
                                 }}>
                                 Auswahl:
                             </Text>
@@ -152,7 +148,7 @@ class KocherlebnisplanenTitel extends Component{
                             backgroundColor: '#E4BC88',
                             marginLeft: '10%'
 
-                        }}></View>
+                        }}> </View>
 
                         <View style={{
                             height: 25,
@@ -168,7 +164,6 @@ class KocherlebnisplanenTitel extends Component{
                                 textAlign:'left',
                                 marginLeft: 40,
                                 color:'black',
-                                fontFamily: ''
                                 }}>
                                 Kategorie:
                             </Text>
@@ -189,7 +184,6 @@ class KocherlebnisplanenTitel extends Component{
                                 textAlign:'left',
                                 marginLeft: 40,
                                 color:'black',
-                                fontFamily: ''
                                 }}>
                                 vegan
                             </Text>
@@ -203,7 +197,7 @@ class KocherlebnisplanenTitel extends Component{
                             backgroundColor: '#E4BC88',
                             marginLeft: '10%'
 
-                        }}></View>
+                        }}> </View>
 
                         <View style={{
                             height: 25,
@@ -219,7 +213,6 @@ class KocherlebnisplanenTitel extends Component{
                                 textAlign:'left',
                                 marginLeft: 40,
                                 color:'black',
-                                fontFamily: ''
                                 }}>
                                 Unverträglichkeiten:
                             </Text>
@@ -240,7 +233,6 @@ class KocherlebnisplanenTitel extends Component{
                                 textAlign:'left',
                                 marginLeft: 40,
                                 color:'black',
-                                fontFamily: ''
                                 }}>
                                 Laktose, Soja
                             </Text>
@@ -254,7 +246,7 @@ class KocherlebnisplanenTitel extends Component{
                             backgroundColor: '#E4BC88',
                             marginLeft: '10%'
 
-                        }}></View>
+                        }}> </View>
 
                         <View style={{
                             height: 25,
@@ -270,7 +262,6 @@ class KocherlebnisplanenTitel extends Component{
                                 textAlign:'left',
                                 marginLeft: 40,
                                 color:'black',
-                                fontFamily: ''
                                 }}>
                                 Gang:
                             </Text>
@@ -291,7 +282,6 @@ class KocherlebnisplanenTitel extends Component{
                                 textAlign:'left',
                                 marginLeft: 40,
                                 color:'black',
-                                fontFamily: ''
                                 }}>
                                 Hauptspeise
                             </Text>
@@ -305,7 +295,7 @@ class KocherlebnisplanenTitel extends Component{
                             backgroundColor: '#E4BC88',
                             marginLeft: '10%'
 
-                        }}></View>
+                        }}> </View>
 
                         <View style={{
                             height: 25,
@@ -321,7 +311,6 @@ class KocherlebnisplanenTitel extends Component{
                                 textAlign:'left',
                                 marginLeft: 40,
                                 color:'black',
-                                fontFamily: ''
                                 }}>
                                 Art:
                             </Text>
@@ -342,7 +331,6 @@ class KocherlebnisplanenTitel extends Component{
                                 textAlign:'left',
                                 marginLeft: 40,
                                 color:'black',
-                                fontFamily: ''
                                 }}>
                                 Chinesisch
                             </Text>
@@ -356,7 +344,7 @@ class KocherlebnisplanenTitel extends Component{
                             backgroundColor: '#E4BC88',
                             marginLeft: '10%'
 
-                        }}></View>
+                        }}> </View>
 
                     <View style={{
                     flexDirection: 'row',
@@ -373,7 +361,7 @@ class KocherlebnisplanenTitel extends Component{
                     }}>
                         
                         
-                        <TouchableOpacity onPress={() => this.props.navigation.navigate('ToDo')} 
+                        <TouchableOpacity onPress={() => this.props.navigation.navigate('Einkaufsliste')}
                         style={{
                             width: '80%',
                             height: '50%',

@@ -4,7 +4,7 @@ import {Image, TouchableOpacity, View, Text} from 'react-native';
 //import {} from "@expo-google-fonts/amatic-sc";
 
 
-class Login extends Component {
+class Startpage extends Component {
     static navigationOptions = {
     };
 
@@ -14,9 +14,9 @@ class Login extends Component {
         return (
 
             <View style={{backgroundColor:'#017301',
-            flex:1,
-            alignItems:'center',
-            alignContent:'center'}}>
+                flex:1,
+                alignItems:'center',
+                alignContent:'center'}}>
 
                 <Text style={{
                     fontFamily:'',
@@ -29,16 +29,16 @@ class Login extends Component {
                 >FOODCREW</Text>
                 <TouchableOpacity
                     onPress={() =>
-                        this.props.navigation.navigate('Kocherlebnisstarten',
+                        this.props.navigation.navigate('Login2',
                         )
                     }
                     style={{
-                    alignItems:'center',
-                }}
+                        alignItems:'center',
+                    }}
                 >
-                <Image
-                    source={require('../Resources/Images/StartEmoji.png')}
-                />
+                    <Image
+                        source={require('../Resources/Images/StartEmoji.png')}
+                    />
                 </TouchableOpacity
                 >
                 <Text style={{
@@ -54,4 +54,4 @@ class Login extends Component {
         );
     }
 }
-export default Login;
+export default Startpage;
