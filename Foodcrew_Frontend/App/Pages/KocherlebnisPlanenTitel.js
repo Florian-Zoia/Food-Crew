@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import {Image, TouchableOpacity, View, Text, TextInput, StyleSheet, ScrollView} from 'react-native';
 
-class KocherlebnisplanenTitel extends Component{
+class KocherlebnisPlanenTitel extends Component{
     static navigationOptions = {
     };
 
@@ -18,7 +18,6 @@ class KocherlebnisplanenTitel extends Component{
                     width: '100%',
                     backgroundColor: '#fff'
                 }}>
-
                     <View 
                     style={{
                     width: '80%',
@@ -34,7 +33,7 @@ class KocherlebnisplanenTitel extends Component{
                     }}>
 
                         <Text style={{
-                        fontFamily:'',
+                        fontFamily:'AmaticSC-Bold',
                         fontSize:30,
                         textAlign:'center',
                         marginTop: '10%',
@@ -42,9 +41,8 @@ class KocherlebnisplanenTitel extends Component{
                         }}>
                         NEUES KOCHERLEBNIS
                         </Text>
-
                     </View>
-            </View>
+                </View>
 
             <ScrollView vertical={true} horizontal={false} style={{backgroundColor: '#fff'}}>
 
@@ -55,7 +53,6 @@ class KocherlebnisplanenTitel extends Component{
                             AlignItems: 'center',
                             justifyContent: 'center'
                         }}>
-                            
                             <View style={{
                                 height: '90%',
                                 width: '80%',
@@ -65,9 +62,8 @@ class KocherlebnisplanenTitel extends Component{
                                 marginLeft: '10%'
 
                             }}>
-
                             <Text style={{
-                                fontFamily:'',
+                                fontFamily:'Baloo2-Regular',
                                 fontSize:25,
                                 textAlign:'left',
                                 marginLeft: 10,
@@ -75,8 +71,7 @@ class KocherlebnisplanenTitel extends Component{
                                 }}>
                                 Titel:
                             </Text>
-
-                            <TextInput 
+                            <TextInput
                             style={{
                             height: '50%',
                             width: '90%',
@@ -89,18 +84,10 @@ class KocherlebnisplanenTitel extends Component{
                             marginTop: 10
                             }}
                             placeholder="Titel eingeben">
-
-
                             </TextInput>
-
-
                             </View>
-                            
-                            
-                            
-
-
                         </View>
+
 
                         <View style={{
                             height: 50,
@@ -108,9 +95,8 @@ class KocherlebnisplanenTitel extends Component{
                             backgroundColor: '#fff'
 
                         }}>
-
                             <Text style={{
-                                fontFamily:'',
+                                fontFamily:'Baloo2-Regular',
                                 fontSize:25,
                                 textAlign:'left',
                                 marginLeft: 40,
@@ -118,9 +104,9 @@ class KocherlebnisplanenTitel extends Component{
                                 }}>
                                 Personenanzahl: 3
                             </Text>
-
-
                         </View>
+
+
 
                         <View style={{
                             height: 40,
@@ -128,9 +114,8 @@ class KocherlebnisplanenTitel extends Component{
                             backgroundColor: '#fff'
 
                         }}>
-
                             <Text style={{
-                                fontFamily:'',
+                                fontFamily:'Baloo2-Regular',
                                 fontSize:25,
                                 textAlign:'left',
                                 marginLeft: 40,
@@ -138,9 +123,9 @@ class KocherlebnisplanenTitel extends Component{
                                 }}>
                                 Auswahl:
                             </Text>
-
-
                         </View>
+
+
 
                         <View style={{
                             height: 1,
@@ -148,7 +133,10 @@ class KocherlebnisplanenTitel extends Component{
                             backgroundColor: '#E4BC88',
                             marginLeft: '10%'
 
-                        }}> </View>
+                        }}>
+                        </View>
+
+
 
                         <View style={{
                             height: 25,
@@ -157,9 +145,8 @@ class KocherlebnisplanenTitel extends Component{
                             marginTop: 10
 
                         }}>
-
                             <Text style={{
-                                fontFamily:'',
+                                fontFamily:'Baloo2-Regular',
                                 fontSize:20,
                                 textAlign:'left',
                                 marginLeft: 40,
@@ -167,19 +154,17 @@ class KocherlebnisplanenTitel extends Component{
                                 }}>
                                 Kategorie:
                             </Text>
-
-
                         </View>
+
+
 
                         <View style={{
                             height: 40,
                             width: '100%',
                             backgroundColor: '#fff'
-
                         }}>
-
                             <Text style={{
-                                fontFamily:'',
+                                fontFamily:'Boogaloo-Regular',
                                 fontSize:15,
                                 textAlign:'left',
                                 marginLeft: 40,
@@ -187,9 +172,9 @@ class KocherlebnisplanenTitel extends Component{
                                 }}>
                                 vegan
                             </Text>
-
-
                         </View>
+
+
 
                         <View style={{
                             height: 1,
@@ -197,7 +182,10 @@ class KocherlebnisplanenTitel extends Component{
                             backgroundColor: '#E4BC88',
                             marginLeft: '10%'
 
-                        }}> </View>
+                        }}>
+                        </View>
+
+
 
                         <View style={{
                             height: 25,
@@ -206,9 +194,8 @@ class KocherlebnisplanenTitel extends Component{
                             marginTop: 10
 
                         }}>
-
                             <Text style={{
-                                fontFamily:'',
+                                fontFamily:'Baloo2-Regular',
                                 fontSize:20,
                                 textAlign:'left',
                                 marginLeft: 40,
@@ -216,19 +203,17 @@ class KocherlebnisplanenTitel extends Component{
                                 }}>
                                 Unverträglichkeiten:
                             </Text>
-
-
                         </View>
+
+
 
                         <View style={{
                             height: 40,
                             width: '100%',
                             backgroundColor: '#fff'
-
                         }}>
-
                             <Text style={{
-                                fontFamily:'',
+                                fontFamily:'Boogaloo-Regular',
                                 fontSize:15,
                                 textAlign:'left',
                                 marginLeft: 40,
@@ -236,17 +221,19 @@ class KocherlebnisplanenTitel extends Component{
                                 }}>
                                 Laktose, Soja
                             </Text>
-
-
                         </View>
+
+
 
                         <View style={{
                             height: 1,
                             width: '80%',
                             backgroundColor: '#E4BC88',
                             marginLeft: '10%'
+                        }}>
+                        </View>
 
-                        }}> </View>
+
 
                         <View style={{
                             height: 25,
@@ -255,9 +242,8 @@ class KocherlebnisplanenTitel extends Component{
                             marginTop: 10
 
                         }}>
-
                             <Text style={{
-                                fontFamily:'',
+                                fontFamily:'Baloo2-Regular',
                                 fontSize:20,
                                 textAlign:'left',
                                 marginLeft: 40,
@@ -265,19 +251,16 @@ class KocherlebnisplanenTitel extends Component{
                                 }}>
                                 Gang:
                             </Text>
-
-
                         </View>
+
 
                         <View style={{
                             height: 40,
                             width: '100%',
                             backgroundColor: '#fff'
-
                         }}>
-
                             <Text style={{
-                                fontFamily:'',
+                                fontFamily:'Boogaloo-Regular',
                                 fontSize:15,
                                 textAlign:'left',
                                 marginLeft: 40,
@@ -285,9 +268,8 @@ class KocherlebnisplanenTitel extends Component{
                                 }}>
                                 Hauptspeise
                             </Text>
-
-
                         </View>
+
 
                         <View style={{
                             height: 1,
@@ -295,18 +277,18 @@ class KocherlebnisplanenTitel extends Component{
                             backgroundColor: '#E4BC88',
                             marginLeft: '10%'
 
-                        }}> </View>
+                        }}>
+                        </View>
+
 
                         <View style={{
                             height: 25,
                             width: '100%',
                             backgroundColor: '#fff',
                             marginTop: 10
-
                         }}>
-
                             <Text style={{
-                                fontFamily:'',
+                                fontFamily:'Baloo2-Regular',
                                 fontSize:20,
                                 textAlign:'left',
                                 marginLeft: 40,
@@ -314,19 +296,15 @@ class KocherlebnisplanenTitel extends Component{
                                 }}>
                                 Art:
                             </Text>
-
-
                         </View>
 
                         <View style={{
                             height: 40,
                             width: '100%',
                             backgroundColor: '#fff'
-
                         }}>
-
                             <Text style={{
-                                fontFamily:'',
+                                fontFamily:'Boogaloo-Regular',
                                 fontSize:15,
                                 textAlign:'left',
                                 marginLeft: 40,
@@ -334,17 +312,17 @@ class KocherlebnisplanenTitel extends Component{
                                 }}>
                                 Chinesisch
                             </Text>
-
-
                         </View>
+
 
                         <View style={{
                             height: 1,
                             width: '80%',
                             backgroundColor: '#E4BC88',
                             marginLeft: '10%'
+                        }}>
+                        </View>
 
-                        }}> </View>
 
                     <View style={{
                     flexDirection: 'row',
@@ -353,24 +331,23 @@ class KocherlebnisplanenTitel extends Component{
                     backgroundColor: '#fff'
                     }}>
 
+
                     <View style={{
                         flex: 1,
                         backgroundColor: '#fff',
                         alignItems: 'center',
                         justifyContent: 'center'
                     }}>
-                        
-                        
-                        <TouchableOpacity onPress={() => this.props.navigation.navigate('Einkaufsliste')}
+                    <TouchableOpacity onPress={() => this.props.navigation.navigate('Einkaufsliste')}
                         style={{
                             width: '80%',
                             height: '50%',
                             backgroundColor: 'rgba(181, 145, 95, 0.5)',
                             borderRadius: 15
                         }}>
-                            
+
                             <Text style={{
-                            fontFamily:'',
+                            fontFamily:'Baloo2-Regular',
                             fontSize:25,
                             textAlign:'center',
                             marginTop: '5%',
@@ -378,11 +355,10 @@ class KocherlebnisplanenTitel extends Component{
                             }}>
                                 Fertig
                             </Text>
-                    
+
                     </TouchableOpacity>
-
-
                     </View>
+
 
                     <View style={{
                         flex: 1,
@@ -390,17 +366,15 @@ class KocherlebnisplanenTitel extends Component{
                         alignItems: 'center',
                         justifyContent: 'center'
                     }}>
-
-                        <TouchableOpacity onPress={() => this.props.navigation.navigate('Kocherlebnisplanen')} 
+                        <TouchableOpacity onPress={() => this.props.navigation.navigate('Kocherlebnisplanen')}
                         style={{
                             width: '80%',
                             height: '50%',
                             backgroundColor: 'rgba(181, 145, 95, 0.3)',
                             borderRadius: 15
                         }}>
-                            
                             <Text style={{
-                            fontFamily:'',
+                            fontFamily:'Baloo2-Regular',
                             fontSize:25,
                             textAlign:'center',
                             marginTop: '5%',
@@ -408,14 +382,15 @@ class KocherlebnisplanenTitel extends Component{
                             }}>
                                 Ändern
                             </Text>
-                    
                     </TouchableOpacity>
+                    </View>
+
 
                     </View>
 
-                    </View>
 
             </ScrollView>
+
 
             </View>
 
@@ -424,4 +399,4 @@ class KocherlebnisplanenTitel extends Component{
     };
 
 }
-export default KocherlebnisplanenTitel;
+export default KocherlebnisPlanenTitel;

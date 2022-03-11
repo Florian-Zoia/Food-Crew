@@ -49,7 +49,6 @@ class Einkaufsliste extends Component{
                     fontSize:35,
                     textAlign:'center',
                     color:'black',
-                    fontFamily: 'sans-serif-condensed'
                     }}>
                     EINKAUFSLISTE
                     </Text>
@@ -63,7 +62,8 @@ class Einkaufsliste extends Component{
                     width: '80%',
                     marginLeft: '10%',
                     backgroundColor: '#E4BC88'
-                }}></View>
+                }}>
+                </View>
 
 
                 <ScrollView horizontal={false} vertical={true}>
@@ -89,7 +89,8 @@ class Einkaufsliste extends Component{
                             borderColor: '#E4BC88',
                             borderRadius: 15,
                             borderWidth: 2,
-                        }}></View>
+                        }}>
+                        </View>
 
                     </View>
 
@@ -134,7 +135,8 @@ class Einkaufsliste extends Component{
                             borderColor: '#E4BC88',
                             borderRadius: 15,
                             borderWidth: 2,
-                        }}></View>
+                        }}>
+                        </View>
 
                     </View>
 
@@ -179,7 +181,8 @@ class Einkaufsliste extends Component{
                             borderColor: '#E4BC88',
                             borderRadius: 15,
                             borderWidth: 2,
-                        }}></View>
+                        }}>
+                        </View>
 
                     </View>
 
@@ -224,7 +227,8 @@ class Einkaufsliste extends Component{
                             borderColor: '#E4BC88',
                             borderRadius: 15,
                             borderWidth: 2,
-                        }}></View>
+                        }}>
+                        </View>
 
                     </View>
 

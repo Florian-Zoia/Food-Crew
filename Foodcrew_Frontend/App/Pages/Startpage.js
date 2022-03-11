@@ -1,16 +1,40 @@
 import React, { Component } from 'react';
-import {Image, TouchableOpacity, View, Text} from 'react-native';
+import {Image, TouchableOpacity, View, Text, ActivityIndicator, FlatList} from 'react-native';
 //import { amatic-sc-700normal } from 'typeface-amatic-sc';
 //import {} from "@expo-google-fonts/amatic-sc";
+
 
 
 class Startpage extends Component {
     static navigationOptions = {
     };
 
+    constructor(props) {
+        super(props);
+    this.state = {
+        data: [],
+        isLoading: true
+    };
+}
 
+
+componentDidMount() {
+    this.getMoviesFromApi();
+}
+
+     getMoviesFromApi = () => {
+        return fetch('https://reactnative.dev/movies.json')
+            .then((response) => response.json())
+            .then((json) => {
+                return json.movies;
+            })
+            .catch((error) => {
+                console.error(error);
+            });
+    };
 
     render() {
+        const { data, isLoading } = this.state;
         return (
 
             <View style={{backgroundColor:'#017301',
@@ -27,6 +51,7 @@ class Startpage extends Component {
 
                 }}
                 >FOODCREW</Text>
+
                 <TouchableOpacity
                     onPress={() =>
                         this.props.navigation.navigate('Login2',

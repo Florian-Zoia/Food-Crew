@@ -34,12 +34,11 @@ class Kocherlebnisstarten extends Component{
                     }}>
 
                         <Text style={{
-                        fontFamily:'',
+                        fontFamily:'Baloo2-Regular',
                         fontSize:30,
                         textAlign:'center',
                         marginTop: '10%',
                         color:'#B5915F',
-                        fontFamily: 'sans-serif-condensed'
                         }}>
                         NEUES KOCHERLEBNIS
                         </Text>
@@ -54,12 +53,11 @@ class Kocherlebnisstarten extends Component{
                 }}>
 
                     <Text style={{
-                        fontFamily:'',
+                        fontFamily:'Baloo2-Regular',
                         fontSize:25,
                         textAlign:'center',
                         marginTop: 20,
                         color:'black',
-                        fontFamily: 'sans-serif-light'
                     }}>
                         Titel des Kocherlebnisses
                     </Text>
@@ -72,7 +70,7 @@ class Kocherlebnisstarten extends Component{
                 }}>
 
                     <Text style={{
-                        fontFamily:'',
+                        fontFamily:'Baloo2-Regular',
                         fontSize:25,
                         textAlign:'left',
                         marginTop: 10,
@@ -103,7 +101,7 @@ class Kocherlebnisstarten extends Component{
                 }}>
 
                     <Text style={{
-                        fontFamily:'',
+                        fontFamily:'Baloo2-Regular',
                         fontSize:25,
                         textAlign:'left',
                         marginTop: 10,
@@ -122,7 +120,7 @@ class Kocherlebnisstarten extends Component{
                 }}>
 
                     <Text style={{
-                        fontFamily:'',
+                        fontFamily:'Baloo2-Regular',
                         fontSize:25,
                         textAlign:'left',
                         marginTop: 10,
@@ -187,7 +185,7 @@ class Kocherlebnisstarten extends Component{
                         }}>
                             
                             <Text style={{
-                            fontFamily:'',
+                            fontFamily:'Baloo2-Regular',
                             fontSize:25,
                             textAlign:'center',
                             marginTop: '5%',
@@ -217,7 +215,7 @@ class Kocherlebnisstarten extends Component{
                         }}>
                             
                             <Text style={{
-                            fontFamily:'',
+                            fontFamily:'Baloo2-Regular',
                             fontSize:25,
                             textAlign:'center',
                             marginTop: '5%',

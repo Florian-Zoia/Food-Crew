@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import {Image, TouchableOpacity, View, Text, TextInput, StyleSheet} from 'react-native';
+import {Image, TouchableOpacity, View, Text, TextInput, StyleSheet, ScrollView} from 'react-native';
+import {} from "native-base";
 
 class Kocherlebnisse extends Component{
     static navigationOptions = {
@@ -16,13 +17,18 @@ class Kocherlebnisse extends Component{
             }}>
 
                 <View style={{
-                    flex: 5,
-                    backgroundColor: '#fff'
+                    flex: 1.5,
+                    alignitems: 'center',
+                    justifycontent: 'center',
+                    backgroundColor: 'rgba(250,250,250,1)',
+                    marginTop: '5%',
+                    borderColor: '#ffffff',
+                    borderWidth: 2,
+                    borderRadius: 15
                 }}>
 
                 <TouchableOpacity onPress={() => this.props.navigation.navigate('Einstellungen')} 
                     >
-
                             <Image
                             source={require('../Resources/Images/Einstellungen.png')}
                             style={{
@@ -35,126 +41,115 @@ class Kocherlebnisse extends Component{
                             />
 
                 </TouchableOpacity>
+<View style={{
+    alignItems:"center",
 
-                <TouchableOpacity onPress={() => this.props.navigation.navigate('Einstellungen')} 
-                    >
+}}>
+    <View style={{
+        alignItems:"center",
+        flexDirection:"row",
 
+    }}>
+                <TouchableOpacity onPress={() => this.props.navigation.navigate('Einstellungen')}>
                             <Image
-                            source={require('../Resources/Images/profilbild leer.png')}
+                            source={require('../Resources/Images/profilbildLeer.png')}
                             style={{
                             height: 100.28,
                             width: 100,
-                            resizeMode: 'stretch',
                             }}
-                            />
+                            /></TouchableOpacity>
 
-                </TouchableOpacity>
-
-                <View 
-                    style={{
-                    width: '80%',
-                    height: '80%',
-                    alignitems: 'center',
-                    justifycontent: 'center',
-                    backgroundColor: 'rgba(250,250,250,1)',
-                    marginLeft: '10%',
-                    marginTop: '5%',
-                    borderColor: '#ffffff',
-                    borderWidth: 2,
-                    borderRadius: 15
-                    }}>
-
-                        <Text style={{
+                       <Text style={{
+                           marginLeft:5,
                         fontFamily:'',
                         fontSize:30,
-                        textAlign:'right',
-                        marginTop: '10%',
                         color:'#000000',
-                        fontFamily: 'sans-serif-light'
                         }}>
                         Max Muster
                         </Text>
-                    </View>
-                </View
-            </View>
-
+                </View>
+                </View>
+                </View>
+<View style={{
+    flex: 4,
+    backgroundColor: '#fff'
+}} >
             <View style={{
-                flex: 1,
                 alignitems: 'center',
                 justifycontent: 'center'
                 }}>
 
                 <Text style={{
-                    fontFamily:'',
+                    fontFamily:'AmaticSC-Bold',
                     fontSize:50,
                     textAlign:'center',
-                    marginTop: '10%',
                     color:'#B5915F',
-                    fontFamily: 'sans-serif-condensed'
                     }}>
                     KOCHERLEBNISSE
                 </Text>
 
                 <Text style={{
-                    fontFamily:'',
+                    fontFamily:'Baloo2-Regular',
                     fontSize:30,
                     textAlign:'left',
                     marginLeft: 36,
                     color:'black',
-                    fontFamily: 'sans-serif-light'
                     }}>
                     Anstehend:
                 </Text>
             </View>
 
-            <View style={{
-                height: 1,
-                width: '80%',
-                backgroundColor: '#E4BC88',
-                marginLeft: '10%'
-                }}>
-            </View>
 
+
+<ScrollView>
             <View style={{
-                height: 25,
                 width: '100%',
                 backgroundColor: '#fff',
                 marginTop: 10
                 }}>
 
                 <Text style={{
-                    fontFamily:'',
+                    fontFamily:'Baloo2-Regular',
                     fontSize:27.5,
                     textAlign:'left',
                     marginLeft: 36,
                     color:'black',
-                    fontFamily: 'sans-serif-light'
                     }}>
                     Erlebnis 1
                 </Text>
 
                 <Text style={{
-                    fontFamily:'',
+                    fontFamily:'Baloo2-Regular',
                     fontSize:18,
                     textAlign:'left',
                     marginLeft: 36,
                     color:'black',
-                    fontFamily: 'sans-serif-light'
                     }}>
                     Vegan, ohne Nüsse
                 </Text>
+                <View style={{
+                    alignItems:'center',
+                    marginBottom:1,
+
+                }}>
+                <View
+                style={{
+                    flexDirection:"row",
+                    justifyContent:"space-around"
+                }}>
 
                 <TouchableOpacity onPress={() => this.props.navigation.navigate('Kocherlebnisplanen')} 
                     style={{
-                    width: '80%',
-                    height: '50%',
+                    width: '30%',
+                    height: '100%',
                     backgroundColor: 'rgba(181, 145, 95, 0.3)',
-                    borderRadius: 15
+                    borderRadius: 15,
+
                     }}>
                             
                     <Text style={{
-                        fontFamily:'sans-serif-light',
-                        fontSize:24,
+                        fontFamily:'Baloo2-Regular',
+                        fontSize:18,
                         textAlign:'center',
                         marginTop: '5%',
                         color:'black'
@@ -165,15 +160,15 @@ class Kocherlebnisse extends Component{
 
                 <TouchableOpacity onPress={() => this.props.navigation.navigate('Kocherlebnisplanen')} 
                     style={{
-                    width: '80%',
-                    height: '50%',
+                    width: '30%',
+                    height: '100%',
                     backgroundColor: 'rgba(181, 145, 95, 0.3)',
                     borderRadius: 15
                     }}>
                             
                     <Text style={{
-                        fontFamily:'sans-serif-light',
-                        fontSize:24,
+                        fontFamily:'Baloo2-Regular',
+                        fontSize:18,
                         textAlign:'center',
                         marginTop: '5%',
                         color:'black'
@@ -182,10 +177,12 @@ class Kocherlebnisse extends Component{
                         </Text>
 
                 </TouchableOpacity>
-
+                </View>
+                </View>
                 <Image
-                    source={require('../Resources/Images/line9.png')}
+                    source={require('../Resources/Images/Line9.png')}
                     style={{
+                        marginLeft:'9%',
                     height: 1,
                     width: 315.01,
                     resizeMode: 'stretch',
@@ -194,37 +191,35 @@ class Kocherlebnisse extends Component{
             </View>
                         
             <View style={{
-                height: 25,
                 width: '100%',
                 backgroundColor: '#fff',
                 marginTop: 10
                 }}>
 
                 <Text style={{
-                    fontFamily:'',
+                    fontFamily:'Baloo2-Regular',
                     fontSize:27.5,
                     textAlign:'left',
                     marginLeft: 36,
                     color:'black',
-                    fontFamily: 'sans-serif-light'
                     }}>
                     Erlebnis 2
                 </Text>
 
                 <Text style={{
-                    fontFamily:'',
+                    fontFamily:'Baloo2-Regular',
                     fontSize:18,
                     textAlign:'left',
                     marginLeft: 36,
                     color:'black',
-                    fontFamily: 'sans-serif-light'
                     }}>
                     Vegan, ohne Nüsse
                 </Text>
 
                 <Image
-                    source={require('../Resources/Images/line9.png')}
+                    source={require('../Resources/Images/Line9.png')}
                     style={{
+                        marginLeft:'9%',
                     height: 1,
                     width: 315.01,
                     resizeMode: 'stretch',
@@ -234,43 +229,43 @@ class Kocherlebnisse extends Component{
             </View>
 
             <View style={{
-                height: 25,
                 width: '100%',
                 backgroundColor: '#fff',
                 marginTop: 10
                 }}>
 
                 <Text style={{
-                    fontFamily:'',
+                    fontFamily:'Baloo2-Regular',
                     fontSize:27.5,
                     textAlign:'left',
                     marginLeft: 36,
                     color:'black',
-                    fontFamily: 'sans-serif-light'
                     }}>
                     Erlebnis 3
                 </Text>
 
                 <Text style={{
-                    fontFamily:'',
+                    fontFamily:'Baloo2-Regular',
                     fontSize:18,
                     textAlign:'left',
                     marginLeft: 36,
                     color:'black',
-                    fontFamily: 'sans-serif-light'
                     }}>
                     Vegan, ohne Nüsse
                 </Text>
 
                 <Image
-                    source={require('../Resources/Images/line9.png')}
+                    source={require('../Resources/Images/Line9.png')}
                     style={{
+                        marginLeft:'9%',
                     height: 1,
                     width: 315.01,
                     resizeMode: 'stretch',
                     }}
                     />
-
+            </View>
+            </ScrollView>
+            </View>
             </View>
         );
     };
