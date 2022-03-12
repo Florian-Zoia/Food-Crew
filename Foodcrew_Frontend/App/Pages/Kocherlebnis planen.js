@@ -12,9 +12,23 @@ class Kocherlebnisplanen extends Component{
                 flex:1,
                 backgroundColor: '#fff'
             }}>
+                <TouchableOpacity onPress={() => this.props.navigation.navigate('Einstellungen')}
+                >
+                    <Image
+                        source={require('../Resources/Images/Einstellungen.png')}
+                        style={{
+                            height: 50,
+                            width: 50,
+                            resizeMode: 'stretch',
+                            marginTop: 8,
+                            marginLeft: 328
+                        }}
+                    />
+
+                </TouchableOpacity>
 
                 <View style={{
-                    height: 140,
+                    height: '30%',
                     width: '100%',
                     backgroundColor: '#fff'
                 }}>
@@ -22,7 +36,7 @@ class Kocherlebnisplanen extends Component{
                     <View 
                     style={{
                     width: '80%',
-                    height: '80%',
+                        height:'80%',
                     alignitems: 'center',
                     justifycontent: 'center',
                     backgroundColor: 'rgba(228,188,136,0.1)',
@@ -34,14 +48,21 @@ class Kocherlebnisplanen extends Component{
                     }}>
 
                         <Text style={{
-                        fontFamily:'',
+                        fontFamily:'Baloo2-Regular',
                         fontSize:30,
                         textAlign:'center',
                         marginTop: '10%',
                         color:'#B5915F',
-                        fontFamily: 'sans-serif-condensed'
                         }}>
                         NEUES KOCHERLEBNIS
+                        </Text>
+                        <Text style={{
+                            fontFamily:'BethEllen-Regular',
+                            fontSize:30,
+                            textAlign:'center',
+                            color:'#B5915F',
+                        }}>
+                            Planen
                         </Text>
 
                     </View>
@@ -57,12 +78,11 @@ class Kocherlebnisplanen extends Component{
                         }}>
                             
                             <Text style={{
-                            fontFamily:'',
+                            fontFamily:'Baloo2-Regular',
                             fontSize:25,
                             textAlign:'left',
                             marginLeft: 20,
                             color:'black',
-                            fontFamily: 'sans-serif-condensed'
                             }}>
                             Personenanzahl:
                             </Text>
@@ -101,12 +121,11 @@ class Kocherlebnisplanen extends Component{
                         }}>
 
                             <Text style={{
-                            fontFamily:'',
+                            fontFamily:'Baloo2-Regular',
                             fontSize:25,
                             textAlign:'left',
                             marginLeft: 20,
                             color:'black',
-                            fontFamily: 'sans-serif-condensed'
                             }}>
                             Kategorie:
                             </Text>
@@ -114,12 +133,12 @@ class Kocherlebnisplanen extends Component{
                         </View>
 
                         <View style={{
-                            height: 130,
                             width: '100%',
-                            backgroundColor: '#fff'
+                            backgroundColor: '#fff',
+                            flex:2
                         }}>
 
-                            <ScrollView vertical={false} horizontal={true}>
+                            <ScrollView vertical={false} horizontal={true} >
 
                                 <View style={{
                                     height: 130,
@@ -152,12 +171,11 @@ class Kocherlebnisplanen extends Component{
                                     </TouchableOpacity>
 
                                     <Text style={{
-                                    fontFamily:'',
+                                    fontFamily:'Boogaloo-Regular',
                                     fontSize:15,
                                     textAlign:'left',
                                     marginLeft: 50,
                                     color:'black',
-                                    fontFamily: 'sans-serif-condensed'
                                     }}>
                                     Vegan
                                     </Text>
@@ -195,11 +213,10 @@ class Kocherlebnisplanen extends Component{
                                     </TouchableOpacity>
 
                                     <Text style={{
-                                    fontFamily:'',
+                                    fontFamily:'Boogaloo-Regular',
                                     fontSize:15,
                                     textAlign:'center',
                                     color:'black',
-                                    fontFamily: 'sans-serif-condensed'
                                     }}>
                                     Vegetarisch
                                     </Text>
@@ -237,11 +254,10 @@ class Kocherlebnisplanen extends Component{
                                     </TouchableOpacity>
 
                                     <Text style={{
-                                    fontFamily:'',
+                                    fontFamily:'Boogaloo-Regular',
                                     fontSize:15,
                                     textAlign:'center',
                                     color:'black',
-                                    fontFamily: 'sans-serif-condensed'
                                     }}>
                                     Fisch
                                     </Text>
@@ -280,12 +296,11 @@ class Kocherlebnisplanen extends Component{
                                     </TouchableOpacity>
 
                                     <Text style={{
-                                    fontFamily:'',
+                                    fontFamily:'Boogaloo-Regular',
                                     fontSize:15,
                                     textAlign:'left',
                                     marginLeft: 35,
                                     color:'black',
-                                    fontFamily: 'sans-serif-condensed'
                                     }}>
                                     Fleisch
                                     </Text>
@@ -308,12 +323,11 @@ class Kocherlebnisplanen extends Component{
                         }}>
 
                             <Text style={{
-                            fontFamily:'',
+                            fontFamily:'Baloo2-Regular',
                             fontSize:25,
                             textAlign:'left',
                             marginLeft: 20,
                             color:'black',
-                            fontFamily: 'sans-serif-condensed'
                             }}>
                             Unverträglichkeiten:
                             </Text>
@@ -359,12 +373,11 @@ class Kocherlebnisplanen extends Component{
                                     </TouchableOpacity>
 
                                     <Text style={{
-                                    fontFamily:'',
+                                    fontFamily:'Boogaloo-Regular',
                                     fontSize:15,
                                     textAlign:'left',
                                     marginLeft: 50,
                                     color:'black',
-                                    fontFamily: 'sans-serif-condensed'
                                     }}>
                                     Gluten
                                     </Text>
@@ -402,11 +415,10 @@ class Kocherlebnisplanen extends Component{
                                     </TouchableOpacity>
 
                                     <Text style={{
-                                    fontFamily:'',
+                                    fontFamily:'Boogaloo-Regular',
                                     fontSize:15,
                                     textAlign:'center',
                                     color:'black',
-                                    fontFamily: 'sans-serif-condensed'
                                     }}>
                                     Laktose
                                     </Text>
@@ -444,11 +456,10 @@ class Kocherlebnisplanen extends Component{
                                     </TouchableOpacity>
 
                                     <Text style={{
-                                    fontFamily:'',
+                                    fontFamily:'Boogaloo-Regular',
                                     fontSize:15,
                                     textAlign:'center',
                                     color:'black',
-                                    fontFamily: 'sans-serif-condensed'
                                     }}>
                                     Erdnuss
                                     </Text>
@@ -487,12 +498,11 @@ class Kocherlebnisplanen extends Component{
                                     </TouchableOpacity>
 
                                     <Text style={{
-                                    fontFamily:'',
+                                    fontFamily:'Boogaloo-Regular',
                                     fontSize:15,
                                     textAlign:'left',
                                     marginLeft: 35,
                                     color:'black',
-                                    fontFamily: 'sans-serif-condensed'
                                     }}>
                                     Soja
                                     </Text>
@@ -515,12 +525,11 @@ class Kocherlebnisplanen extends Component{
                             }}>
 
                             <Text style={{
-                            fontFamily:'',
+                            fontFamily:'Baloo2-Regular',
                             fontSize:25,
                             textAlign:'left',
                             marginLeft: 20,
                             color:'black',
-                            fontFamily: 'sans-serif-condensed'
                             }}>
                             Gang:
                             </Text>
@@ -566,12 +575,11 @@ class Kocherlebnisplanen extends Component{
                                     </TouchableOpacity>
 
                                     <Text style={{
-                                    fontFamily:'',
+                                    fontFamily:'Boogaloo-Regular',
                                     fontSize:15,
                                     textAlign:'left',
                                     marginLeft: 40,
                                     color:'black',
-                                    fontFamily: 'sans-serif-condensed'
                                     }}>
                                     Vorspeise
                                     </Text>
@@ -609,11 +617,10 @@ class Kocherlebnisplanen extends Component{
                                     </TouchableOpacity>
 
                                     <Text style={{
-                                    fontFamily:'',
+                                    fontFamily:'Boogaloo-Regular',
                                     fontSize:15,
                                     textAlign:'center',
                                     color:'black',
-                                    fontFamily: 'sans-serif-condensed'
                                     }}>
                                     Hauptspeise
                                     </Text>
@@ -652,11 +659,10 @@ class Kocherlebnisplanen extends Component{
                                     </TouchableOpacity>
 
                                     <Text style={{
-                                    fontFamily:'',
+                                    fontFamily:'Boogaloo-Regular',
                                     fontSize:15,
                                     textAlign:'center',
                                     color:'black',
-                                    fontFamily: 'sans-serif-condensed'
                                     }}>
                                     Nachspeise
                                     </Text>
@@ -676,12 +682,11 @@ class Kocherlebnisplanen extends Component{
                             }}>
 
                             <Text style={{
-                            fontFamily:'',
+                            fontFamily:'Baloo2-Regular',
                             fontSize:25,
                             textAlign:'left',
                             marginLeft: 20,
                             color:'black',
-                            fontFamily: 'sans-serif-condensed'
                             }}>
                             Art:
                             </Text>
@@ -727,12 +732,11 @@ class Kocherlebnisplanen extends Component{
                                     </TouchableOpacity>
 
                                     <Text style={{
-                                    fontFamily:'',
+                                    fontFamily:'Boogaloo-Regular',
                                     fontSize:15,
                                     textAlign:'left',
                                     marginLeft: 45,
                                     color:'black',
-                                    fontFamily: 'sans-serif-condensed'
                                     }}>
                                     Deutsch
                                     </Text>
@@ -770,11 +774,10 @@ class Kocherlebnisplanen extends Component{
                                     </TouchableOpacity>
 
                                     <Text style={{
-                                    fontFamily:'',
+                                    fontFamily:'Boogaloo-Regular',
                                     fontSize:15,
                                     textAlign:'center',
                                     color:'black',
-                                    fontFamily: 'sans-serif-condensed'
                                     }}>
                                     Italienisch
                                     </Text>
@@ -812,11 +815,10 @@ class Kocherlebnisplanen extends Component{
                                     </TouchableOpacity>
 
                                     <Text style={{
-                                    fontFamily:'',
+                                    fontFamily:'Boogaloo-Regular',
                                     fontSize:15,
                                     textAlign:'center',
                                     color:'black',
-                                    fontFamily: 'sans-serif-condensed'
                                     }}>
                                     Chinesisch
                                     </Text>
@@ -855,11 +857,10 @@ class Kocherlebnisplanen extends Component{
                                     </TouchableOpacity>
 
                                     <Text style={{
-                                    fontFamily:'',
+                                    fontFamily:'Boogaloo-Regular',
                                     fontSize:15,
                                     textAlign:'center',
                                     color:'black',
-                                    fontFamily: 'sans-serif-condensed'
                                     }}>
                                     Japanisch
                                     </Text>
@@ -887,7 +888,7 @@ class Kocherlebnisplanen extends Component{
                     }}>
                         
                         
-                        <TouchableOpacity onPress={() => this.props.navigation.navigate('KocherlebnisplanenTitel')} 
+                        <TouchableOpacity onPress={() => this.props.navigation.navigate('KocherlebnisPlanenTitel')}
                         style={{
                             width: '80%',
                             height: '50%',
@@ -926,7 +927,7 @@ class Kocherlebnisplanen extends Component{
                         }}>
                             
                             <Text style={{
-                            fontFamily:'',
+                            fontFamily:'Baloo2-Regular',
                             fontSize:25,
                             textAlign:'center',
                             marginTop: '5%',

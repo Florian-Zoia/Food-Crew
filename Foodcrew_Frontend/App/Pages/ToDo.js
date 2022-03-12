@@ -45,11 +45,10 @@ class ToDo extends Component{
                 }}>
 
                     <Text style={{
-                    fontFamily:'',
+                    fontFamily:'AmaticSC-Bold',
                     fontSize:35,
                     textAlign:'center',
                     color:'black',
-                    fontFamily: 'sans-serif-condensed'
                     }}>
                     TO DO
                     </Text>
@@ -61,21 +60,21 @@ class ToDo extends Component{
                     width: '80%',
                     marginLeft: '10%',
                     backgroundColor: '#E4BC88'
-                }}></View>
+                }}>
+
+                </View>
 
                 <ScrollView horizontal={false} vertical={true}>
 
                     <Text style={{
-                    fontFamily:'',
+                    fontFamily:'Baloo2-Regular',
                     fontSize:25,
                     textAlign:'left',
                     color:'black',
-                    fontFamily: 'sans-serif-light',
                     marginHorizontal: 40,
                     marginTop: 20
                     }}>
-                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. 
-                    </Text>
+                        Schritt 1: Basilikum und Petersilie waschen </Text>
 
                     
 
@@ -90,7 +89,7 @@ class ToDo extends Component{
                         justifyContent: 'center'
                     }}>
 
-                    <TouchableOpacity onPress={() => this.props.navigation.navigate('ToDo')} 
+                    <TouchableOpacity onPress={() => this.props.navigation.navigate('ToDo2')}
                         style={{
                             width: '50%',
                             height: '50%',
@@ -99,7 +98,7 @@ class ToDo extends Component{
                         }}>
                             
                             <Text style={{
-                            fontFamily:'',
+                            fontFamily:'Baloo2-Regular',
                             fontSize:25,
                             textAlign:'center',
                             marginTop: '3%',

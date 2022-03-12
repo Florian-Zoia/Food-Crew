@@ -12,6 +12,20 @@ class Freundeeinladen extends Component{
                 flex: 1,
                 backgroundColor: '#fff'
             }}>
+                <TouchableOpacity onPress={() => this.props.navigation.navigate('Einstellungen')}
+                >
+                    <Image
+                        source={require('../Resources/Images/Einstellungen.png')}
+                        style={{
+                            height: 50,
+                            width: 50,
+                            resizeMode: 'stretch',
+                            marginTop: 8,
+                            marginLeft: 328
+                        }}
+                    />
+
+                </TouchableOpacity>
             
             <View style={{
                 flex: 5,
@@ -38,7 +52,6 @@ class Freundeeinladen extends Component{
                     textAlign:'center',
                     marginTop: '10%',
                     color:'#B5915F',
-                    fontFamily: 'sans-serif-condensed'
                     }}>
                     NEUES KOCHERLEBNIS
                     </Text>
@@ -50,7 +63,9 @@ class Freundeeinladen extends Component{
             <View style={{
                 flex: 1,
                 backgroundColor: '#fff',
-            }}></View>
+            }}>
+
+            </View>
 
             <View style={{
                 flex: 2,
