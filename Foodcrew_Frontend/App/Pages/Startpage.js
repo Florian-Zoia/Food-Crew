@@ -58,7 +58,9 @@ componentDidMount() {
                         alignItems:'center',
                     }}
                 >
-
+                    <Image
+                        source={require('../Resources/Images/StartEmoji.png')}
+                    />
                 </TouchableOpacity
                 >
                 <Text style={{

@@ -40,7 +40,7 @@ class Gast extends Component {
                         borderColor: 'black',
                         borderWidth:1,
                         alignSelf: "center",
-                        height:30,
+                        height:40,
                     }}>
 
 
@@ -54,13 +54,13 @@ class Gast extends Component {
                         borderColor: 'black',
                         borderWidth:1,
                         alignSelf: "center",
-                        height:30,
+                        height:40,
                     }}>
                     </TextInput>
                 </View>
 
                 <TouchableOpacity onPress={() =>
-                    this.props.navigation.navigate('Kocherlebnisplanen',
+                    this.props.navigation.navigate('NeuesKocherlebnis',
                     )} style={{backgroundColor: "#B0DE35",
 
                     borderRadius: 30,

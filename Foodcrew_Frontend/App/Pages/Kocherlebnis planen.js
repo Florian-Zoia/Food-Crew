@@ -12,6 +12,20 @@ class Kocherlebnisplanen extends Component{
                 flex:1,
                 backgroundColor: '#fff'
             }}>
+                <TouchableOpacity onPress={() => this.props.navigation.navigate('Einstellungen')}
+                >
+                    <Image
+                        source={require('../Resources/Images/Einstellungen.png')}
+                        style={{
+                            height: 50,
+                            width: 50,
+                            resizeMode: 'stretch',
+                            marginTop: 8,
+                            marginLeft: 328
+                        }}
+                    />
+
+                </TouchableOpacity>
 
                 <View style={{
                     height: '30%',
@@ -874,7 +888,7 @@ class Kocherlebnisplanen extends Component{
                     }}>
                         
                         
-                        <TouchableOpacity onPress={() => this.props.navigation.navigate('KocherlebnisplanenTitel')} 
+                        <TouchableOpacity onPress={() => this.props.navigation.navigate('KocherlebnisPlanenTitel')}
                         style={{
                             width: '80%',
                             height: '50%',

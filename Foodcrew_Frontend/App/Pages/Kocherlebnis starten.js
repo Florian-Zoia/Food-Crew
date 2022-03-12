@@ -13,9 +13,22 @@ class Kocherlebnisstarten extends Component{
                 alignitems: 'center',
                 justifycontent: 'center'
             }}>
+                <TouchableOpacity onPress={() => this.props.navigation.navigate('Einkaufsliste')}
+                >
+                    <Image
+                        source={require('../Resources/Images/ShoppingCart.png')}
+                        style={{
+                            height: 40,
+                            width: 50,
+                            resizeMode: 'stretch',
+                            marginTop: 8,
+                            marginLeft: 328
+                        }}
+                    />
 
+                </TouchableOpacity>
                 <View style={{
-                    flex: 5,
+                    flex: 7,
                     backgroundColor: '#fff'
                 }}>
 
@@ -42,6 +55,14 @@ class Kocherlebnisstarten extends Component{
                         }}>
                         NEUES KOCHERLEBNIS
                         </Text>
+                        <Text style={{
+                            fontFamily:'BethEllen-Regular',
+                            fontSize:30,
+                            textAlign:'center',
+                            color:'#B5915F',
+                        }}>
+                            Starten
+                        </Text>
 
                     </View>
 
@@ -59,7 +80,7 @@ class Kocherlebnisstarten extends Component{
                         marginTop: 20,
                         color:'black',
                     }}>
-                        Titel des Kocherlebnisses
+                        Gnocci mit grünem Pesto
                     </Text>
 
                 </View>
@@ -90,7 +111,7 @@ class Kocherlebnisstarten extends Component{
                         marginRight: 20,
                         color:'black'
                     }}>
-                        Vegan, Hauptgang, Gluten, Laktose
+                        Vegetarisch, Hauptgang, Nüsse, Laktose
                     </Text>
 
                 </View>
@@ -109,7 +130,7 @@ class Kocherlebnisstarten extends Component{
                         marginRight: 20,
                         color:'black'
                     }}>
-                        Personen: 3
+                        Personen: 12
                     </Text>
 
                 </View>

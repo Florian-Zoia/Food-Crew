@@ -12,9 +12,23 @@ class KocherlebnisPlanenTitel extends Component{
                 flex: 1,
                 backgroundColor: '#fff'
             }}>
+                <TouchableOpacity onPress={() => this.props.navigation.navigate('Einstellungen')}
+                >
+                    <Image
+                        source={require('../Resources/Images/Einstellungen.png')}
+                        style={{
+                            height: 50,
+                            width: 50,
+                            resizeMode: 'stretch',
+                            marginTop: 8,
+                            marginLeft: 328
+                        }}
+                    />
+
+                </TouchableOpacity>
 
                 <View style={{
-                    height: 140,
+                    height: 200,
                     width: '100%',
                     backgroundColor: '#fff'
                 }}>
@@ -40,6 +54,14 @@ class KocherlebnisPlanenTitel extends Component{
                         color:'#B5915F',
                         }}>
                         NEUES KOCHERLEBNIS
+                        </Text>
+                        <Text style={{
+                            fontFamily:'BethEllen-Regular',
+                            fontSize:30,
+                            textAlign:'center',
+                            color:'#B5915F',
+                        }}>
+                            Planen
                         </Text>
                     </View>
                 </View>
@@ -102,7 +124,7 @@ class KocherlebnisPlanenTitel extends Component{
                                 marginLeft: 40,
                                 color:'black',
                                 }}>
-                                Personenanzahl: 3
+                                Personenanzahl: 12
                             </Text>
                         </View>
 
@@ -170,7 +192,7 @@ class KocherlebnisPlanenTitel extends Component{
                                 marginLeft: 40,
                                 color:'black',
                                 }}>
-                                vegan
+                                Vegetarisch
                             </Text>
                         </View>
 
@@ -219,7 +241,7 @@ class KocherlebnisPlanenTitel extends Component{
                                 marginLeft: 40,
                                 color:'black',
                                 }}>
-                                Laktose, Soja
+                                Laktose, Nüsse
                             </Text>
                         </View>
 
@@ -310,7 +332,7 @@ class KocherlebnisPlanenTitel extends Component{
                                 marginLeft: 40,
                                 color:'black',
                                 }}>
-                                Chinesisch
+                                Italienisch
                             </Text>
                         </View>
 
@@ -338,7 +360,7 @@ class KocherlebnisPlanenTitel extends Component{
                         alignItems: 'center',
                         justifyContent: 'center'
                     }}>
-                    <TouchableOpacity onPress={() => this.props.navigation.navigate('Einkaufsliste')}
+                    <TouchableOpacity onPress={() => this.props.navigation.navigate('Kocherlebnisstarten')}
                         style={{
                             width: '80%',
                             height: '50%',

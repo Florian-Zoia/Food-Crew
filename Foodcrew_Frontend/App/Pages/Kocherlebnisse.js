@@ -20,7 +20,6 @@ class Kocherlebnisse extends Component{
                     alignitems: 'center',
                     justifycontent: 'center',
                     backgroundColor: 'rgba(250,250,250,1)',
-                    marginTop: '5%',
                     borderColor: '#ffffff',
                     borderWidth: 2,
                     borderRadius: 15
